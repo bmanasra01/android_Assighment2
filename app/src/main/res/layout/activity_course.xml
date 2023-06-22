@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".CourseActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="Plesee Choose subject "
+
+        />
+    <Button
+        android:id="@+id/mathbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:outlineAmbientShadowColor="@color/purple_200"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        />
+    <Button
+        android:id="@+id/englishbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:outlineAmbientShadowColor="@color/purple_200"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        />
+    <Button
+        android:id="@+id/scincebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scince"
+        android:outlineAmbientShadowColor="@color/purple_200"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
